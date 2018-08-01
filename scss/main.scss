@@ -17,7 +17,6 @@ body {
 
 // Headings
 h1,
-h2,
 h3 {
   margin: 0;
   font-weight: 400;
@@ -138,13 +137,13 @@ main {
 
   div {
     font-size: 2rem;
-    border: 3px #fff solid;
+    border: 2px #fff solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
     @include easeOut;
 
     &:hover {
-      padding: 0.5rem 1.5rem;
+      padding: 1.5rem 2.5rem;
       background: $secondary-color;
       color: set-text-color($secondary-color);
       span {
@@ -177,12 +176,4 @@ main {
   color: #333;
 }
 
-#main-footer {
-  text-align: center;
-  padding: 1rem;
-  background: darken($primary-color, 10);
-  color: set-text-color($primary-color);
-  height: 60px;
-}
-
-@import "mobile";
+@import "_mobile";
