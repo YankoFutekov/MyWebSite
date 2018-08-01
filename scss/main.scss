@@ -111,12 +111,12 @@ main {
 // Projects
 .projects {
   display: grid;
-  grid-gap: 0.7rem;
+  grid-gap: 0.6rem;
   grid-template-columns: repeat(3 1fr);
 
   img {
     width: 100%;
-    border: 3px #fff solid;
+    border: 2px #fff solid;
 
     &:hover {
       opacity: 0.5;
@@ -168,12 +168,6 @@ main {
   @extend .btn;
   background: darken($primary-color, 50);
   color: #fff;
-}
-
-.btn-light {
-  @extend .btn;
-  background: lighten($primary-color, 50);
-  color: #333;
 }
 
 @import "_mobile";
