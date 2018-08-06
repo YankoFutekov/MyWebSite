@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://yankofutekov.github.io/MyWebSite",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css --recur"
+    "sass": "node-sass -w scss/ -o dist/css --recur",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Yanko Futekov",
