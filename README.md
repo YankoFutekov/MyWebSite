@@ -6,5 +6,5 @@ This is a my personal multi-page website that is cross-platform repsonsive, show
   * JavaScript
   * Font Awesome
 
-## Here's a link to the website (Deployed on Heroku)
-[SySAdmin](https://sysadmin2.herokuapp.com/index.html "SySAdmin")
+## Here's a link to the website (Deployed on the GitHub.io)
+[YKF](https://yankofutekov.github.io/MyWebSite/index.html "YKF")
